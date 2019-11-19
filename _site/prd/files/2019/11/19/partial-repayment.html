@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>账单管理 - 部分还款 | 周发财blog</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="账单管理 - 部分还款" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="类似信用卡账单模式下，关于用户发起部分还款的业务规则需求" />
+<meta property="og:description" content="类似信用卡账单模式下，关于用户发起部分还款的业务规则需求" />
+<link rel="canonical" href="http://localhost:4000/prd/files/2019/11/19/partial-repayment.html" />
+<meta property="og:url" content="http://localhost:4000/prd/files/2019/11/19/partial-repayment.html" />
+<meta property="og:site_name" content="周发财blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-11-19T20:55:28+08:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/prd/files/2019/11/19/partial-repayment.html"},"url":"http://localhost:4000/prd/files/2019/11/19/partial-repayment.html","headline":"账单管理 - 部分还款","dateModified":"2019-11-19T20:55:28+08:00","datePublished":"2019-11-19T20:55:28+08:00","description":"类似信用卡账单模式下，关于用户发起部分还款的业务规则需求","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="周发财blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">周发财blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/resume">简历</a><a class="page-link" href="/about">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">账单管理 - 部分还款</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-11-19T20:55:28+08:00" itemprop="datePublished">Nov 19, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="一名词解释">一、名词解释</h2>
+<ul>
+  <li>账单日：用户当期信用生活信用付订单汇总生成金融订单时间</li>
+  <li>还款日：用户当期金融订单最晚应还款时间</li>
+  <li>部分还款：用户发起当期金融订单部分金额还款</li>
+  <li>实际延期时间：① 用户在还款日及之前申请：当期还款日 至 下期还款日 自然天数；② 用户还款日后申请：申请当日 至 下一期还款日 自然天数</li>
+  <li>剩余应还金额：原账单金额成功发起部分还款后，剩余应还未还款部分金额</li>
+</ul>
+
+<h2 id="二金融订单部分还款">二、金融订单部分还款</h2>
+<h3 id="21-前置条件">2.1 前置条件</h3>
+<ul>
+  <li>账单已生成</li>
+  <li>用户逾期 <strong>3日</strong> （含）内（ days &lt; 4 ）</li>
+  <li>订单未申请过部分还款</li>
+  <li>账单金额<strong>不低于 0元</strong></li>
+</ul>
+
+<h3 id="22-部分还款">2.2 部分还款</h3>
+<p>2.2.1 最低还款金额限制</p>
+
+<ul>
+  <li>还款金额允许用户输入（最低为账单金额10%，最高为账单全额）</li>
+  <li>最低还款比例为 <strong>10%</strong></li>
+  <li>最低还款金额为 <strong>0 元</strong></li>
+</ul>
+
+<p>2.2.2 金融订单还款时间延期</p>
+
+<ul>
+  <li>剩余金额（当期未申请还款部分金额）还款时间延期至 <strong>下一个还款日</strong></li>
+  <li>当前账单还款日更新为用户 <strong>下一个还款日</strong>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>例如：
+用户当期账单日为 5月1日，还款日为 5月6日；
+当期账单1200元，用户申请部分还款400元成功；
+=&gt; 剩余800元可以延期至 6月6日还款
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>2.2.3 部分还款次数限制</p>
+<ul>
+  <li>部分还款次数仅允许申请** 1 **次</li>
+</ul>
+
+<p>2.2.4账单剩余应还款金额</p>
+
+<ul>
+  <li>账单剩余应还款金额需要减去部分还款申请金额（注意平台金融订单列表展示待还款金额）
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>例如：
+用户当期账单日为 5月1日，还款日为 5月6日；
+当期账单1200元，用户申请部分还款400元成功；
+=&gt; 剩余还款金额为800元
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="23-部分还款服务费">2.3 部分还款服务费</h3>
+<ul>
+  <li>服务费及逾期费（如有）需要在申请最低还款时进行支付</li>
+  <li>服务费 = 剩余应还金额 × 实际延期时间 × 服务费率</li>
+  <li>服务费率：**0.98 ‰ **（年化 35.28%）</li>
+  <li>实际延期时间：① 用户在还款日及之前申请：当期还款日 至 下期还款日 自然天数；② 用户还款日后申请：申请当日 至 下一期还款日 自然天数</li>
+  <li>部分还款成功后，如<strong>未逾期</strong>，按照 <strong>申请还款金额</strong> 归还授信额度</li>
+  <li>归还授信额度，可继续在信用生活进行使用</li>
+  <li>可用额度 = 总授信额度 - （延期未还款 + 未出账金额 + 已出账未还款金额）；全局需要满足：占用资金 ≤ 总授信额度
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>例如：
+用户当期账单日为 5月1日，还款日为 5月6日；
+当期账单1200元，用户5月11日申请部分还款，逾期费24元，用户申请部分还款400元；
+=&gt; 当期需还款：（1200 - 400） × 26 × 0.98‰ + 24 + 400 = 444.38 元
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="三剩余应还款金额还款">三、剩余应还款金额还款</h2>
+<h3 id="31-还款">3.1 还款</h3>
+<ul>
+  <li>还款日及之前任何时间允许（自申请日起）对剩余应还金额进行还款</li>
+  <li>剩余应还金额须全额还款（支付宝转账部分还款，未还款部分按照逾期处理）</li>
+</ul>
+
+<h3 id="32-提前还款">3.2 提前还款</h3>
+<ul>
+  <li>账单部分还款成功后，允许用户提前进行还款</li>
+  <li>提前还款无附加费用</li>
+</ul>
+
+<h3 id="33-剩余账单逾期">3.3 剩余账单逾期</h3>
+<ul>
+  <li>用户延期至下一还款日未完成剩余应还款金额还款，即为逾期</li>
+  <li>账单逾期费取剩余账单金额 <strong>5‰ / 日</strong>，不超过剩余应还金额 <strong>20%</strong></li>
+  <li>剩余账单逾期后，信用生活可用授信额度 <strong>锁定</strong></li>
+  <li>如果逾期后发生支付宝转账还款，此情况如果存在剩余应还款金额未全额还款情况，次日逾期费按照实际未还款金额计算</li>
+</ul>
+
+<h3 id="34-账单完成">3.4 账单完成</h3>
+<ul>
+  <li>完成剩余应还款金额还款及逾期费（如有），账单还款完成</li>
+</ul>
+
+<h2 id="四退款">四、退款</h2>
+<h3 id="41-部分还款成功后退款发起条件">4.1 部分还款成功后退款发起条件</h3>
+<ul>
+  <li>账单部分还款申请成功</li>
+  <li>关联信用生活订单发生退款（包含：退货、拒收、发货异常等）</li>
+  <li>订单退款金额，以信用生活发起为准</li>
+</ul>
+
+<h3 id="42-订单退款-账单处理">4.2 订单退款-账单处理</h3>
+<ul>
+  <li>退款金额按照 <strong>还款抵扣</strong> 入账剩余应还款金额</li>
+  <li>优先抵扣未还款部分，其次抵扣逾期费（如有）</li>
+  <li>如<strong>退款金额</strong>金额高于剩余应还金额及逾期费（如有），则先抵扣账单及逾期费。剩余多出部分进行退款打款</li>
+</ul>
+
+<h2 id="五其他">五、其他</h2>
+<h3 id="51-费用计算位数">5.1 费用计算位数</h3>
+<ul>
+  <li>所有金额均取小数点后2位，四舍五入</li>
+</ul>
+
+<h2 id="六原型">六、原型</h2>
+<p><img src="https://images-cdn.shimo.im/iQRczlaOMzUTicTc/原型_最低还款金额.png!thumbnail" alt="图片" /></p>
+
+
+  </div><a class="u-url" href="/prd/files/2019/11/19/partial-repayment.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">周发财blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">周发财blog</li><li><a class="u-email" href="mailto:zhoujunjie221@qq.com">zhoujunjie221@qq.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/zhoujunjie221"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">zhoujunjie221</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>整理了我的简历和以往的需求文档</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
