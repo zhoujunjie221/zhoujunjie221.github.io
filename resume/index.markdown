@@ -22,6 +22,10 @@ Tel：[MTg1MDE3MzUxMDc=](tel:18501735107)
 
 Sketch、Axure、SQL、REST API
 
+### 以往设计
+[阿姨直聘-小程序-用户端页面设计](https://lanhuapp.com/url/Ul5hs)<br>
+密码: 9lsH
+
 ### 工作经历
 **北京快快网络技术有限公司（真融宝）|2020/01 – 至今**<br>
 **海外信贷业务|高级产品经理**
