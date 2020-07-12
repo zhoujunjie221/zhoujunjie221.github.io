@@ -7,8 +7,10 @@ description: 周俊杰的个人简历。丰富的信贷、SaaS、电商、O2O服
 
 
 ### 基本信息
-成都理工大学-机械工程及自动化 30岁 
+成都理工大学-机械工程及自动化 30岁
+
 Mail：[zhoujunjie221@qq.com](mailto:zhoujunjie221@qq.com)
+
 Tel：[MTg1MDE3MzUxMDc=](tel:18501735107)
 
 
