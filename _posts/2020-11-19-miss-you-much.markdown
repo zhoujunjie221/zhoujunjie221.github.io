@@ -2,8 +2,8 @@
 layout: post
 title:  雪上空留马行处
 date:   20120-11-19 20:32:00 +0800
-categories: article
-description: 本产品为H5小说阅读页面。以免费章节（分页）内容为抓手，吸引用户做后续阅读付费。
+categories: PRD files
+description: 以后有时间，我一定要写完一本十里店故事。
 ---
 
 有两个人给我的感觉像兄长，一个是于老师，另一个就是益友哥。
