@@ -1,8 +1,8 @@
 ---
-layout: article
+layout: post
 title:  雪上空留马行处
 date:   20120-11-19 20:32:00 +0800
-categories: PRD files
+categories: article
 description: 本产品为H5小说阅读页面。以免费章节（分页）内容为抓手，吸引用户做后续阅读付费。
 ---
 
