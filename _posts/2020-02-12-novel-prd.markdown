@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  小说阅读-H5
+title:  PRD-小说阅读-H5
 date:   20120-02-12 23:22:28 +0800
 categories: PRD files
 description: 本产品为H5小说阅读页面。以免费章节（分页）内容为抓手，吸引用户做后续阅读付费。
