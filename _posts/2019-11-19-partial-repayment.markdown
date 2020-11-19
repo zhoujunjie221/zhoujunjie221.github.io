@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  【文档】账单管理 - 部分还款
+title:  PRD-账单管理-部分还款
 date:   2019-11-19 20:55:28 +0800
 categories: PRD files
 description: 类似信用卡账单模式下，关于用户发起部分还款的业务规则需求
