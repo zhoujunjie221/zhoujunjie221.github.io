@@ -54,3 +54,13 @@ plugins:
 
 # Google Analytics
 google_analytics: G-0YH3K2901Y
+
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
