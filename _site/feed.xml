@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-19T22:07:40+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">周发财blog</title><subtitle>整理了我的简历和以往的需求文档</subtitle><entry><title type="html">账单管理 - 部分还款</title><link href="http://localhost:4000/prd/files/2019/11/19/partial-repayment.html" rel="alternate" type="text/html" title="账单管理 - 部分还款" /><published>2019-11-19T20:55:28+08:00</published><updated>2019-11-19T20:55:28+08:00</updated><id>http://localhost:4000/prd/files/2019/11/19/partial-repayment</id><content type="html" xml:base="http://localhost:4000/prd/files/2019/11/19/partial-repayment.html">&lt;h2 id=&quot;一名词解释&quot;&gt;一、名词解释&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-26T21:20:24+08:00</updated><id>/feed.xml</id><title type="html">周发财BLOG</title><subtitle>希望跑赢中位数</subtitle><entry><title type="html">PRD-账单管理-部分还款</title><link href="/prd/files/2019/11/19/partial-repayment.html" rel="alternate" type="text/html" title="PRD-账单管理-部分还款" /><published>2019-11-19T20:55:28+08:00</published><updated>2019-11-19T20:55:28+08:00</updated><id>/prd/files/2019/11/19/partial-repayment</id><content type="html" xml:base="/prd/files/2019/11/19/partial-repayment.html">&lt;h2 id=&quot;一名词解释&quot;&gt;一、名词解释&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;账单日：用户当期信用生活信用付订单汇总生成金融订单时间&lt;/li&gt;
   &lt;li&gt;还款日：用户当期金融订单最晚应还款时间&lt;/li&gt;
@@ -30,7 +30,7 @@
 &lt;ul&gt;
   &lt;li&gt;剩余金额（当期未申请还款部分金额）还款时间延期至 &lt;strong&gt;下一个还款日&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;当前账单还款日更新为用户 &lt;strong&gt;下一个还款日&lt;/strong&gt;
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;例如：
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;例如：
 用户当期账单日为 5月1日，还款日为 5月6日；
 当期账单1200元，用户申请部分还款400元成功；
 =&amp;gt; 剩余800元可以延期至 6月6日还款
@@ -47,7 +47,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;账单剩余应还款金额需要减去部分还款申请金额（注意平台金融订单列表展示待还款金额）
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;例如：
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;例如：
 用户当期账单日为 5月1日，还款日为 5月6日；
 当期账单1200元，用户申请部分还款400元成功；
 =&amp;gt; 剩余还款金额为800元
@@ -64,7 +64,7 @@
   &lt;li&gt;部分还款成功后，如&lt;strong&gt;未逾期&lt;/strong&gt;，按照 &lt;strong&gt;申请还款金额&lt;/strong&gt; 归还授信额度&lt;/li&gt;
   &lt;li&gt;归还授信额度，可继续在信用生活进行使用&lt;/li&gt;
   &lt;li&gt;可用额度 = 总授信额度 - （延期未还款 + 未出账金额 + 已出账未还款金额）；全局需要满足：占用资金 ≤ 总授信额度
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;例如：
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;例如：
 用户当期账单日为 5月1日，还款日为 5月6日；
 当期账单1200元，用户5月11日申请部分还款，逾期费24元，用户申请部分还款400元；
 =&amp;gt; 当期需还款：（1200 - 400） × 26 × 0.98‰ + 24 + 400 = 444.38 元
@@ -120,20 +120,4 @@
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;六原型&quot;&gt;六、原型&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://images-cdn.shimo.im/iQRczlaOMzUTicTc/原型_最低还款金额.png!thumbnail&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">一、名词解释 账单日：用户当期信用生活信用付订单汇总生成金融订单时间 还款日：用户当期金融订单最晚应还款时间 部分还款：用户发起当期金融订单部分金额还款 实际延期时间：① 用户在还款日及之前申请：当期还款日 至 下期还款日 自然天数；② 用户还款日后申请：申请当日 至 下一期还款日 自然天数 剩余应还金额：原账单金额成功发起部分还款后，剩余应还未还款部分金额</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2019/11/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-11-19T19:52:28+08:00</published><updated>2019-11-19T19:52:28+08:00</updated><id>http://localhost:4000/jekyll/update/2019/11/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/11/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;https://images-cdn.shimo.im/iQRczlaOMzUTicTc/原型_最低还款金额.png!thumbnail&quot; alt=&quot;图片&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="PRD" /><category term="files" /><summary type="html">一、名词解释 账单日：用户当期信用生活信用付订单汇总生成金融订单时间 还款日：用户当期金融订单最晚应还款时间 部分还款：用户发起当期金融订单部分金额还款 实际延期时间：① 用户在还款日及之前申请：当期还款日 至 下期还款日 自然天数；② 用户还款日后申请：申请当日 至 下一期还款日 自然天数 剩余应还金额：原账单金额成功发起部分还款后，剩余应还未还款部分金额</summary></entry></feed>

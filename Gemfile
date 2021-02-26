@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.0.0"
+gem "jekyll"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
 # gem 'jekyll-theme-primer', '~> 0.5.4'
@@ -35,4 +35,10 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 # 更新安全提示
 gem "kramdown", ">= 2.3.0"
 
+source 'https://rubygems.org'
 
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+
+gem 'github-pages', versions['github-pages']
