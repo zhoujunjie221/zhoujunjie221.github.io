@@ -34,6 +34,7 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # 更新安全提示
 gem "kramdown", ">= 2.3.0"
+gem "rack", ">= 2.1.4"
 
 source 'https://rubygems.org'
 
