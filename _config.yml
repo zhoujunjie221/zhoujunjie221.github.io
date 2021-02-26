@@ -52,7 +52,7 @@ plugins:
 #   - vendor/ruby/
 
 # Google Analytics
-google_analytics: G-0YH3K2901Y
+google_analytics: UA-190424841-1
 
 
 jekyll_admin:
