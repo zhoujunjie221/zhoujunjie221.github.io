@@ -222,7 +222,15 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
     racc (1.5.2)
+<<<<<<< HEAD
     rack (2.2.3)
+=======
+    rack (1.6.13)
+    rack-protection (1.5.5)
+      rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+>>>>>>> 8b2e6cdb4d15e258d12c81494d89676d501eaa1d
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -268,7 +276,11 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   kramdown (>= 2.3.0)
   minima (~> 2.5)
+<<<<<<< HEAD
   rack (>= 2.1.4)
+=======
+  rack (~> 1.6.13)
+>>>>>>> 8b2e6cdb4d15e258d12c81494d89676d501eaa1d
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
