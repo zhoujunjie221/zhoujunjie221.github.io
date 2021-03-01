@@ -1,2 +1,3 @@
 # zhoujunjie221-github.io
-一个博客
+
+💡 还是得把博客写起来才行。
