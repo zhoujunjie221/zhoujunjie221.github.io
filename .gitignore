@@ -1,4 +1,2 @@
 _site
-/SECURITY.md
-.gitignore
-SECURITY
+/.gitignore
