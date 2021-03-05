@@ -23,7 +23,7 @@ email: zhoujunjie221@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
   希望跑赢中位数
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.gotospace.cn" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: 
 github_username:  zhoujunjie221
 
