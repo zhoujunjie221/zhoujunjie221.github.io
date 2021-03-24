@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  雪上空留马行处
-date:   20120-11-19 20:32:00 +0800
-categories: [story]
+date:   2020-11-19 20:32:00 +0800
+categories: story
 description: 以后有时间，我一定要写完一本十里店故事。
 ---
 
