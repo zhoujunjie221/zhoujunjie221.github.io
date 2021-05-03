@@ -18,7 +18,7 @@ git clone https://github.com/getredash/setup.git
 
 # 3. 执行安装
 运行 Setup 文件夹中 setup.sh 文件。
-如果有报错的化，试试通过 bash 命令来执行 setup.sh 安装：
+如果有报错，试试通过 bash 命令来执行 setup.sh 安装：
 ```bash
 bash setup.sh
 ```
