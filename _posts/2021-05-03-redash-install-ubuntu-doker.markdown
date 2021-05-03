@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Ubuntu 20.4 通过Docker一键安装Redash
+title:  Ubuntu 20.04 通过Docker一键安装Redash
 date:   2021-05-03 14:31:00 +0800
 categories: PRD files
 description: Ubuntu 20.04上，用Docker最简单安装Redash的方法
