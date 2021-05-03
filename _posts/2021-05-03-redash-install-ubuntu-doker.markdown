@@ -7,7 +7,7 @@ description: Ubuntu 20.04上，用Docker最简单安装Redash的方法
 keyword: Redash,Docker,Ubuntu,Install,getredash
 ---
 
-使用官方的辅助工程进行安装，不用再去麻烦配置配置Docker,node.js
+使用官方的辅助工程进行安装，不用再去麻烦配置Docker,node.js
 # 1. 安装 Git
 
 # 2. 下载辅助工程
@@ -22,3 +22,7 @@ git clone https://github.com/getredash/setup.git
 ```bash
 bash setup.sh
 ```
+
+# 4. 设置 Redash
+- 安装完成后，可以通过 `local:5000` 访问 redash
+- 已经默认设置为外部可以通过 `80` 端口进行访问，所以直接把域名解析到对应服务ip就可以访问
