@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.gotospace.cn/prd/files/2021/06/06/BNI-Escrow.html</loc>
-    
-    <lastmod>2022-01-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.gotospace.cn/prd/files/2019/11/19/partial-repayment.html</loc>
     
     <lastmod>2022-01-11</lastmod>
@@ -38,15 +29,6 @@
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/prd/files/2021/05/03/redash-install-ubuntu-doker.html</loc>
-    
-    <lastmod>2022-01-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.gotospace.cn/prd/files/2021/03/24/Instamoney-Escrow-Flow.html</loc>
     
     <lastmod>2022-01-11</lastmod>
@@ -56,7 +38,34 @@
   </url>
   
   <url>
+    <loc>https://www.gotospace.cn/prd/files/2021/05/03/redash-install-ubuntu-doker.html</loc>
+    
+    <lastmod>2022-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gotospace.cn/manual/files/2021/05/26/visa-of-indonesia.html</loc>
+    
+    <lastmod>2022-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/prd/files/2021/06/06/BNI-Escrow.html</loc>
+    
+    <lastmod>2022-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/2022/01/12/iOS-Launch-Image-Size.html</loc>
     
     <lastmod>2022-01-11</lastmod>
     
@@ -83,7 +92,42 @@
 
   
   <url>
+    <loc>https://www.gotospace.cn/tags/%E5%8D%81%E9%87%8C%E5%BA%97/</loc>
+    <lastmod>2022-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/%E6%88%90%E9%83%BD/</loc>
+    <lastmod>2022-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/BNI/</loc>
+    <lastmod>2022-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gotospace.cn/tags/Escrow/</loc>
+    <lastmod>2022-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/API/</loc>
+    <lastmod>2022-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B/</loc>
     <lastmod>2022-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -125,6 +169,34 @@
   </url>
   
   <url>
+    <loc>https://www.gotospace.cn/tags/%E7%AD%BE%E8%AF%81/</loc>
+    <lastmod>2022-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A/</loc>
+    <lastmod>2022-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/Visa/</loc>
+    <lastmod>2022-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/%E5%85%A5%E5%A2%83/</loc>
+    <lastmod>2022-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gotospace.cn/tags/Redash/</loc>
     <lastmod>2022-01-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -160,69 +232,41 @@
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/BNI/</loc>
+    <loc>https://www.gotospace.cn/tags/Launch-Image-Size/</loc>
     <lastmod>2022-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/API/</loc>
+    <loc>https://www.gotospace.cn/tags/Icon-Size/</loc>
     <lastmod>2022-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B/</loc>
+    <loc>https://www.gotospace.cn/tags/iOS/</loc>
     <lastmod>2022-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/%E7%AD%BE%E8%AF%81/</loc>
-    <lastmod>2022-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A/</loc>
-    <lastmod>2022-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/Visa/</loc>
-    <lastmod>2022-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/%E5%85%A5%E5%A2%83/</loc>
-    <lastmod>2022-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/%E5%8D%81%E9%87%8C%E5%BA%97/</loc>
-    <lastmod>2022-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/%E6%88%90%E9%83%BD/</loc>
+    <loc>https://www.gotospace.cn/tags/Apple/</loc>
     <lastmod>2022-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://www.gotospace.cn/categories/Story/</loc>
+    <lastmod>2022-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://www.gotospace.cn/categories/PRD/</loc>
@@ -233,13 +277,6 @@
   
   <url>
     <loc>https://www.gotospace.cn/categories/Manual/</loc>
-    <lastmod>2022-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/categories/Story/</loc>
     <lastmod>2022-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
