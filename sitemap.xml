@@ -101,20 +101,6 @@
 
   
   <url>
-    <loc>https://www.gotospace.cn/tags/%E5%8D%81%E9%87%8C%E5%BA%97/</loc>
-    <lastmod>2022-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/%E6%88%90%E9%83%BD/</loc>
-    <lastmod>2022-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.gotospace.cn/tags/Redash/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -213,28 +199,14 @@
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/Launch-Image-Size/</loc>
+    <loc>https://www.gotospace.cn/tags/%E5%8D%81%E9%87%8C%E5%BA%97/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/Icon-Size/</loc>
-    <lastmod>2022-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/iOS/</loc>
-    <lastmod>2022-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/Apple/</loc>
+    <loc>https://www.gotospace.cn/tags/%E6%88%90%E9%83%BD/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -263,6 +235,34 @@
   
   <url>
     <loc>https://www.gotospace.cn/tags/%E5%85%A5%E5%A2%83/</loc>
+    <lastmod>2022-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/Launch-Image-Size/</loc>
+    <lastmod>2022-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/Icon-Size/</loc>
+    <lastmod>2022-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/iOS/</loc>
+    <lastmod>2022-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/Apple/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
