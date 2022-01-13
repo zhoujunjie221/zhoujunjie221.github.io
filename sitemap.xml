@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/2022/01/12/iOS-Launch-Image-Size.html</loc>
+    <loc>https://www.gotospace.cn/2022/01/12/iOS-Launch-Image-Size/</loc>
     
     <lastmod>2022-01-11</lastmod>
     
@@ -101,35 +101,14 @@
 
   
   <url>
-    <loc>https://www.gotospace.cn/tags/Redash/</loc>
+    <loc>https://www.gotospace.cn/tags/%E5%8D%81%E9%87%8C%E5%BA%97/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/Docker/</loc>
-    <lastmod>2022-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/Ubuntu/</loc>
-    <lastmod>2022-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/Install/</loc>
-    <lastmod>2022-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/getredash/</loc>
+    <loc>https://www.gotospace.cn/tags/%E6%88%90%E9%83%BD/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -178,35 +157,35 @@
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/BNI/</loc>
+    <loc>https://www.gotospace.cn/tags/Redash/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/API/</loc>
+    <loc>https://www.gotospace.cn/tags/Docker/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B/</loc>
+    <loc>https://www.gotospace.cn/tags/Ubuntu/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/%E5%8D%81%E9%87%8C%E5%BA%97/</loc>
+    <loc>https://www.gotospace.cn/tags/Install/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/%E6%88%90%E9%83%BD/</loc>
+    <loc>https://www.gotospace.cn/tags/getredash/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -235,6 +214,27 @@
   
   <url>
     <loc>https://www.gotospace.cn/tags/%E5%85%A5%E5%A2%83/</loc>
+    <lastmod>2022-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/BNI/</loc>
+    <lastmod>2022-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/API/</loc>
+    <lastmod>2022-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -271,14 +271,14 @@
 
   
   <url>
-    <loc>https://www.gotospace.cn/categories/PRD/</loc>
+    <loc>https://www.gotospace.cn/categories/Story/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/categories/Story/</loc>
+    <loc>https://www.gotospace.cn/categories/PRD/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
