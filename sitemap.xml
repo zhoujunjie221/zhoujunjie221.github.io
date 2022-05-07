@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.gotospace.cn/about/index.html</loc>
+    
+    <lastmod>2022-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gotospace.cn/2022/05/07/what-is-WETH/</loc>
     
     <lastmod>2022-05-07</lastmod>
@@ -23,15 +32,6 @@
     <loc>https://www.gotospace.cn/404.html</loc>
     
     <lastmod>2022-02-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/about/index.html</loc>
-    
-    <lastmod>2022-01-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -119,6 +119,20 @@
 
   
   <url>
+    <loc>https://www.gotospace.cn/tags/%E5%8D%81%E9%87%8C%E5%BA%97/</loc>
+    <lastmod>2022-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/%E6%88%90%E9%83%BD/</loc>
+    <lastmod>2022-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gotospace.cn/tags/Escrow/</loc>
     <lastmod>2022-05-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -161,14 +175,28 @@
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/%E5%8D%81%E9%87%8C%E5%BA%97/</loc>
+    <loc>https://www.gotospace.cn/tags/%E7%AD%BE%E8%AF%81/</loc>
     <lastmod>2022-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/%E6%88%90%E9%83%BD/</loc>
+    <loc>https://www.gotospace.cn/tags/%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A/</loc>
+    <lastmod>2022-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/Visa/</loc>
+    <lastmod>2022-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/%E5%85%A5%E5%A2%83/</loc>
     <lastmod>2022-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -210,55 +238,6 @@
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/%E7%AD%BE%E8%AF%81/</loc>
-    <lastmod>2022-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A/</loc>
-    <lastmod>2022-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/Visa/</loc>
-    <lastmod>2022-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/%E5%85%A5%E5%A2%83/</loc>
-    <lastmod>2022-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/BNI/</loc>
-    <lastmod>2022-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/API/</loc>
-    <lastmod>2022-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gotospace.cn/tags/%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B/</loc>
-    <lastmod>2022-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.gotospace.cn/tags/Launch-Image-Size/</loc>
     <lastmod>2022-05-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -287,7 +266,21 @@
   </url>
   
   <url>
-    <loc>https://www.gotospace.cn/tags/URL-scheme/</loc>
+    <loc>https://www.gotospace.cn/tags/BNI/</loc>
+    <lastmod>2022-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/API/</loc>
+    <lastmod>2022-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B/</loc>
     <lastmod>2022-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -316,6 +309,13 @@
   
   <url>
     <loc>https://www.gotospace.cn/tags/ERC-20/</loc>
+    <lastmod>2022-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/tags/URL-scheme/</loc>
     <lastmod>2022-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
