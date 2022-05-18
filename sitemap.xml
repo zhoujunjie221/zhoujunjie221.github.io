@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.gotospace.cn/2022/05/18/iOS-Device-Resolution/</loc>
+    
+    <lastmod>2022-05-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gotospace.cn/2022/01/12/iOS-Launch-Image-Size/</loc>
+    
+    <lastmod>2022-05-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gotospace.cn/2022/05/10/register-your-first-ENS/</loc>
     
     <lastmod>2022-05-10</lastmod>
@@ -109,19 +127,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://www.gotospace.cn/2022/01/12/iOS-Launch-Image-Size/</loc>
-    
-    <lastmod>2022-01-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://www.gotospace.cn/</loc>
-    <lastmod>2022-05-12</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
