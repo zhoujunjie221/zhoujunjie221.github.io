@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gotospace.cn/baidu_verify_codeva-AuQndPRYYt.html</loc>
+    
+    <lastmod>2024-04-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gotospace.cn/2021/06/06/BNI-Escrow/</loc>
     
     <lastmod>2024-03-22</lastmod>
@@ -188,6 +197,20 @@
   </url>
   
   <url>
+    <loc>https://gotospace.cn/tags/%E5%8D%81%E9%87%8C%E5%BA%97/</loc>
+    <lastmod>2024-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gotospace.cn/tags/%E6%88%90%E9%83%BD/</loc>
+    <lastmod>2024-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gotospace.cn/tags/Redash/</loc>
     <lastmod>2024-04-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -251,6 +274,27 @@
   </url>
   
   <url>
+    <loc>https://gotospace.cn/tags/BNI/</loc>
+    <lastmod>2024-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gotospace.cn/tags/API/</loc>
+    <lastmod>2024-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gotospace.cn/tags/%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B/</loc>
+    <lastmod>2024-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gotospace.cn/tags/Launch-Image-Size/</loc>
     <lastmod>2024-04-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -273,13 +317,6 @@
   
   <url>
     <loc>https://gotospace.cn/tags/Apple/</loc>
-    <lastmod>2024-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gotospace.cn/tags/URL-scheme/</loc>
     <lastmod>2024-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -321,41 +358,6 @@
   </url>
   
   <url>
-    <loc>https://gotospace.cn/tags/%E5%8D%81%E9%87%8C%E5%BA%97/</loc>
-    <lastmod>2024-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gotospace.cn/tags/%E6%88%90%E9%83%BD/</loc>
-    <lastmod>2024-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gotospace.cn/tags/BNI/</loc>
-    <lastmod>2024-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gotospace.cn/tags/API/</loc>
-    <lastmod>2024-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gotospace.cn/tags/%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B/</loc>
-    <lastmod>2024-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gotospace.cn/tags/EXIF/</loc>
     <lastmod>2024-04-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -364,6 +366,13 @@
   
   <url>
     <loc>https://gotospace.cn/tags/Photo/</loc>
+    <lastmod>2024-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gotospace.cn/tags/URL-scheme/</loc>
     <lastmod>2024-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -379,14 +388,14 @@
   </url>
   
   <url>
-    <loc>https://gotospace.cn/categories/Manual/</loc>
+    <loc>https://gotospace.cn/categories/Story/</loc>
     <lastmod>2024-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gotospace.cn/categories/Story/</loc>
+    <loc>https://gotospace.cn/categories/Manual/</loc>
     <lastmod>2024-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
