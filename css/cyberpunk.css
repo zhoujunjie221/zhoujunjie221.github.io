@@ -10872,9 +10872,16 @@ article.article .article-tags {
 }
 .table-overflow table {
   width: auto !important;
+  word-wrap: break-word;
+  table-layout: fixed;
 }
 .table-overflow table th {
-  word-break: keep-all;
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+.table-overflow table td {
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
 .video-container {
   position: relative;
