@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://gotospace.cn/2024/10/31/yes/</loc>
-    
-    <lastmod>2024-10-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://gotospace.cn/2024/09/13/list-of-known-malicious-apps/</loc>
     
     <lastmod>2024-10-16</lastmod>
@@ -229,6 +220,34 @@
   </url>
   
   <url>
+    <loc>https://gotospace.cn/tags/%E7%AD%BE%E8%AF%81/</loc>
+    <lastmod>2024-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gotospace.cn/tags/%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A/</loc>
+    <lastmod>2024-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gotospace.cn/tags/Visa/</loc>
+    <lastmod>2024-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gotospace.cn/tags/%E5%85%A5%E5%A2%83/</loc>
+    <lastmod>2024-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gotospace.cn/tags/Redash/</loc>
     <lastmod>2024-10-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -258,34 +277,6 @@
   
   <url>
     <loc>https://gotospace.cn/tags/getredash/</loc>
-    <lastmod>2024-10-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gotospace.cn/tags/%E7%AD%BE%E8%AF%81/</loc>
-    <lastmod>2024-10-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gotospace.cn/tags/%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A/</loc>
-    <lastmod>2024-10-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gotospace.cn/tags/Visa/</loc>
-    <lastmod>2024-10-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gotospace.cn/tags/%E5%85%A5%E5%A2%83/</loc>
     <lastmod>2024-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
